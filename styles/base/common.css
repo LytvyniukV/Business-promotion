@@ -26,6 +26,7 @@ body {
   .link {
     text-decoration: none;
     font-style: normal;
+    color: inherit;
   }
   .list {
     padding: 0;

@@ -1,80 +1,91 @@
-
 .strateg-title {
-font-size: 34px;
-line-height: normal;
-margin-bottom: 8px;
+  font-size: 34px;
+  line-height: normal;
+  margin-bottom: 8px;
 }
 
 .strateg-text {
-font-weight: 500;
-line-height: 1.62;
-margin-bottom: 40px;
+  font-weight: 500;
+  line-height: 1.62;
+  margin-bottom: 40px;
 }
 
 .strateg-list {
-display: flex;
-flex-direction: column;
-gap: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
-
-.strateg-content-wrap{
-padding: 24px 54px 40px 0;
-border-radius: 8px;
-background: transparent;
-
+.strateg-content-wrap {
+  padding: 24px 54px 40px 0;
+  border-radius: 8px;
+  background: transparent;
 }
 
 .author-date {
-line-height: 1.75;
-margin-bottom: 12px;
+  line-height: 1.75;
+  margin-bottom: 12px;
 }
 
 .author-accent {
-font-weight: 700;
-line-height: 28px;
+  font-weight: 700;
+  line-height: 28px;
 }
 
 .strateg-item-text {
-font-size: 24px;
-font-weight: 700;
-line-height: 1.67;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.67;
+  transition: color var(--timing-function);
 }
 
-.current-card{
-    color: var(--brand-color);
+.strateg-items:focus .strateg-item-text,
+.strateg-items:hover .strateg-item-text {
+  color: var(--brand-color);
 }
 
 .strateg-icon {
-    display: none;
+  display: none;
 }
 
 /* ========================DESKTOP=================== */
 
 @media screen and (min-width: 1158px) {
-    
-    .strateg-title {
-        margin-bottom: 10px;
-    }
+  .strateg-title {
+    margin-bottom: 10px;
+  }
 
+  .strateg-text {
+    width: 465px;
+  }
+  .strateg-list {
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 45px;
+  }
 
-    .strateg-list {
-        flex-direction: row;
-        gap: 30px;
-        margin-bottom: 45px;
-    }
-    
-    .strateg-items {
-        width: calc((100% - 60px) / 3);
-    }
+  .strateg-items {
+    width: calc((100% - 60px) / 3);
+  }
 
-    .strateg-content-wrap {
-        border: 1px solid #EFEFEF;
-        padding: 24px 27px 40px 27px;
-    }
-    
-    .strateg-icon {
-        display: flex;
-        margin: 0 auto;
-    }
+  .strateg-content-wrap {
+    border: 1px solid #efefef;
+    padding: 24px 27px 40px 27px;
+  }
+
+  .strateg-icons-wrap {
+    display: flex;
+    gap: 5px;
+    margin: 0 auto;
+    width: 100px;
+  }
+
+  .strateg-icon {
+    display: flex;
+    fill: #efefef;
+  }
+
+  .strateg-list > .strateg-items:hover + .strateg-icons-wrap > .strateg-icon {
+    fill: var(--brand-color);
+  }
 }

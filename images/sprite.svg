@@ -182,5 +182,8 @@
             <path fill="#efefef" style="fill: var(--color1, #efefef)"
                 d="M136 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
         </symbol>
+        <symbol id="icon-flickr" viewBox="0 0 32 32">
+            <path d="M0 17c0-3.866 3.134-7 7-7s7 3.134 7 7c0 3.866-3.134 7-7 7s-7-3.134-7-7zM18 "></path>
+        </symbol>
     </defs>
 </svg>

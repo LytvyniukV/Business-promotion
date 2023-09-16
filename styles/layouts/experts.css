@@ -32,8 +32,9 @@
 text-align: center;
 font-weight: 500;
 line-height: normal;
-fill: #FFF;
-filter: drop-shadow(0px 2px 8px rgba(86, 117, 146, 0.10));
+padding: 12px 20px;
+border-radius: 50px;
+box-shadow: 2px 2px 10px rgba(23, 58, 86, 0.15);
 
 }
 .reverse {

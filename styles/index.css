@@ -22,3 +22,6 @@
 
 /* STRATEGIES */
 @import './layouts/strategies.css';
+
+/* PRICE */
+@import './layouts/price.css';
