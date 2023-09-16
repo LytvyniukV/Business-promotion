@@ -1,0 +1,24 @@
+/* COMMON */
+@import './base/variables.css';
+@import './base/common.css';
+@import './base/container.css';
+@import './base/visually-hidden.css';
+@import './base/section.css';
+
+/* HEADER */
+@import './layouts/header.css';
+
+/* HERO */
+@import './layouts/hero.css';
+
+/* OFFERS */
+@import './layouts/offers.css';
+
+/* BENEFITS */
+@import './layouts/benefits.css';
+
+/* EXPERTS */
+@import './layouts/experts.css';
+
+/* STRATEGIES */
+@import './layouts/strategies.css';

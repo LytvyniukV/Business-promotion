@@ -1,0 +1,108 @@
+.hero {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  
+  .hero > img {
+    width: 338px;
+    height: 310.92px;
+    margin-bottom: 11px;
+  }
+  
+  .hero-title {
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.66;
+    margin-bottom: 16px;
+  }
+  .hero-text {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.55;
+    margin-bottom: 16px;
+  }
+  
+  .buttons-wrap {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+  }
+  
+  .hero-btn {
+    width: 142px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #02897a;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-text-white);
+    font-weight: 700;
+    line-height: normal;
+    transition: background-color var(--timing-function);
+  }
+  
+  .hero-btn:focus,
+  .hero-btn:hover {
+    background-color: var(--hover-color-btn);
+  }
+  
+  .video-link-hero {
+    display: flex;
+    color: var(--brand-color);
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-items: center;
+    transition: color var(--timing-function);
+  }
+  
+  .video-icon {
+    fill: var(--brand-color);
+    margin-right: 8px;
+    transition: fill var(--timing-function);
+  }
+  
+  .video-link-hero:hover,
+  .video-link-hero:focus {
+    color: var(--hover-color-btn);
+  }
+  
+  .video-link-hero:hover > .video-icon,
+  .video-link-hero:focus > .video-icon {
+    fill: var(--hover-color-btn);
+  }
+  
+  /* ========================================DESKTOP========================= */
+  @media screen and (min-width: 1158px) {
+    .hero {
+      padding-top: 25px;
+      flex-direction: row;
+      gap: 35px;
+    }
+    .hero > img {
+      width: 610px;
+      height: 555px;
+    }
+  
+    .hero-title {
+      text-align: start;
+      font-size: 40px;
+      line-height: 1.5;
+      margin-bottom: 18px;
+    }
+    .hero-text {
+      text-align: start;
+      margin-bottom: 45px;
+    }
+  
+    .hero-btn {
+      width: 178px;
+      height: 53px;
+    }
+  }

@@ -1,0 +1,117 @@
+.experts-title {
+  text-align: center;
+  font-size: 32px;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.experts-text {
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.62;
+  margin-bottom: 40px;
+}
+
+.experts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+
+.experts-items {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.experts-items > img{
+    width: 90px;
+}
+.experts-item-text {
+text-align: center;
+font-weight: 500;
+line-height: normal;
+fill: #FFF;
+filter: drop-shadow(0px 2px 8px rgba(86, 117, 146, 0.10));
+
+}
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.order{
+    order: 1;
+}
+
+.experts-btn {
+    width: 216px;
+height: 53px;
+flex-shrink: 0;
+border-radius: 4px;
+background: var(--brand-color);
+color: var(--color-text-white);
+font-weight: 700;
+line-height: normal;
+margin: 0 auto;
+border: none;
+transition: background-color var(--timing-function);
+}
+
+.experts-btn:hover,
+.experts-btn:focus{
+    background-color: var(--hover-color-btn);
+}
+
+/* ============================DESKTOP====================== */
+
+@media screen and (min-width: 1158px) {
+    
+    .experts-title {
+        margin-bottom: 25px;
+    }
+
+    .experts{
+        padding-left: 95px;
+        padding-right: 95px;
+    }
+
+    .experts-text {
+        margin-bottom: 40px;
+        width: 542px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .experts-list {
+        flex-flow: row wrap;
+        column-gap: 107px;
+        row-gap: 25px;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+    
+    .experts-items {
+        width: calc((100% - 107px) / 2);
+        gap: 17px;
+    }
+
+    .experts-items > img{
+        width: 98px;
+    }
+    .experts-item-text {
+        width: 285px;
+        height: 74px;
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50px;
+        box-shadow: 2px 2px 10px rgba(23, 58, 86, 0.15);
+    }
+    
+    .order {
+        order: 0;
+    }
+    
+}
