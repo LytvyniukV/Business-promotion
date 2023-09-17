@@ -1,0 +1,114 @@
+@media screen and (max-width: 1157px) {
+  .mobile-menu-wrap {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    padding: 100px 20px;
+    background-color: var(--color-text-white);
+    top: 0;
+    left: 0;
+    transition: opacity 500ms ease-out, visibility 500ms ease-out;
+  }
+
+  .icon-light-mobile {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+
+  .mobile-icon-close-wrap {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    line-height: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mobile-navigation-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 40px;
+  }
+
+  .mobile-navigation-links {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.14;
+  }
+
+  .buttons-mobile-wrap{
+    display: flex;
+    gap: 10px;
+  }
+
+  .sign-in-mob-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 102px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #bcd0e5;
+    color: var(--main-color-text);
+    font-weight: 600;
+    line-height: normal;
+    background-color: transparent;
+    margin-right: 24px;
+    transition: background-color var(--timing-function),
+      border var(--timing-function), color var(--timing-function);
+  }
+
+  
+  .sign-in-mob-btn:focus {
+    background-color: var(--btn-color);
+    color: var(--color-text-white);
+    border: none;
+  }
+  .sign-up-mob-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+    height: 42px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: var(--brand-color);
+    color: var(--color-text-white);
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    margin-right: 23px;
+    transition: background-color var(--timing-function),
+      border var(--timing-function);
+  }
+
+  
+  .sign-up-mob-btn:focus {
+    background-color: var(--hover-color-btn);
+  }
+
+  .mobile-icon-close{
+    fill: var(--main-color-text);
+  }
+  
+}
+.is-hidden{
+  opacity: 0;
+  visibility: 0;
+  pointer-events: none;
+}
+
+@media screen and (min-width: 1158px) {
+  .mobile-menu-wrap{
+    display: none;
+  }
+}

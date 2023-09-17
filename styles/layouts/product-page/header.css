@@ -9,7 +9,7 @@
 }
 
 .logo {
-  color: #173a56;
+  color: var(--btn-color);
   font-size: 30px;
   font-weight: 700;
   line-height: 0.93;
@@ -17,12 +17,14 @@
   align-items: center;
 }
 
+
+
 .logo-icon {
   margin-right: 8px;
 }
 
 /* =====================================MOBILE=========================== */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1157px) {
   .mobile-menu-btn {
     margin-left: auto;
     background-color: transparent;
@@ -70,7 +72,7 @@
   }
 
   .nav-links {
-    color: #22343d;
+    color: var(--main-color-text);
     line-height: 1.75;
   }
 
@@ -87,7 +89,7 @@
     flex-shrink: 0;
     border-radius: 4px;
     border: 1px solid #bcd0e5;
-    color: #173a56;
+    color: var(--btn-color);
     font-weight: 600;
     line-height: normal;
     background-color: transparent;
@@ -98,7 +100,7 @@
 
   .sign-in-btn:hover,
   .sign-in-btn:focus {
-    background-color: #173a56;
+    background-color: var(--btn-color);
     color: var(--color-text-white);
     border: none;
   }

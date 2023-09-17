@@ -6,22 +6,35 @@
 @import './base/section.css';
 
 /* HEADER */
-@import './layouts/header.css';
+@import './layouts/product-page/header.css';
 
 /* HERO */
-@import './layouts/hero.css';
+@import './layouts/product-page/hero.css';
 
 /* OFFERS */
-@import './layouts/offers.css';
+@import './layouts/product-page/offers.css';
 
 /* BENEFITS */
-@import './layouts/benefits.css';
+@import './layouts/product-page/benefits.css';
 
 /* EXPERTS */
-@import './layouts/experts.css';
+@import './layouts/product-page/experts.css';
 
 /* STRATEGIES */
-@import './layouts/strategies.css';
+@import './layouts/product-page/strategies.css';
 
 /* PRICE */
-@import './layouts/price.css';
+@import './layouts/product-page/price.css';
+
+/* REVIEWS */
+
+@import './layouts/product-page/reviews.css';
+
+/* JOIN US */
+@import './layouts/product-page/join-us.css';
+
+/* FOOTER */
+@import './layouts/product-page/footer.css';
+
+/* MOBILE MENU */
+@import './layouts/product-page/mobile-menu.css';
