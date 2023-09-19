@@ -3,6 +3,10 @@
     padding-bottom: 38px;
   }
   
+  .offers-section{
+    background-color: var(--sections-back-color);
+  }
+  
   .offers-title {
     text-align: center;
     font-size: 32px;

@@ -18,14 +18,14 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./styles/index.css" />
-    
+    <link rel="stylesheet" href="./styles/index-dark.css">
   </head>
   <body>
     <!-- HEADER SECTION -->
 
     <header class="header customers">
       <div class="container header-page">
-        <a href="./index.html" class="logo link">
+        <a href="./index-dark.html" class="logo link">
           <svg class="logo-icon" width="40" height="36">
             <use href="./images/sprite.svg#icon-logo"></use>
           </svg>
@@ -35,13 +35,13 @@
         <nav class="navigation-header">
           <ul class="nav-list list">
             <li>
-              <a href="./index.html" class="nav-links link current">Product</a>
+              <a href="./index-dark.html" class="nav-links link current">Product</a>
             </li>
             <li>
-              <a href="./pricing.html" class="nav-links link">Pricing</a>
+              <a href="./pricing-dark.html" class="nav-links link">Pricing</a>
             </li>
             <li>
-              <a href="./customers.html" class="nav-links link">Customers</a>
+              <a href="./customers-dark.html" class="nav-links link">Customers</a>
             </li>
             <li>
               <a href="" class="nav-links link">Resources</a>
@@ -53,7 +53,7 @@
 
         <button class="sign-up-btn" type="button">Sign Up</button>
 
-        <a class="light-btn" href="./customers-dark.html">
+        <a class="light-btn" href="./customers.html">
           <svg class="light-icon" width="24" height="24">
             <use href="./images/sprite.svg#icon-light-header"></use>
           </svg>
@@ -418,48 +418,47 @@
 
     <!-- ===============/ FOOTER=========================== -->
 
-    <!-- ====================MOBILE MENU================== -->
-
     <div class="mobile-menu-wrap is-hidden" data-first-modal>
-      <a href="./customers-dark.html">
-        <svg class="icon-light-mobile" width="36" height="36">
-          <use href="./images/sprite.svg#icon-light-header"></use>
-        </svg>
-      </a>
-      <button
-        class="mobile-icon-close-wrap"
-        type="button"
-        data-first-modal-close
-      >
-        <svg class="mobile-icon-close" width="36" height="36">
-          <use href="./images/sprite.svg#icon-close"></use>
-        </svg>
-      </button>
-      <ul class="mobile-navigation-list list">
-        <li>
-          <a href="./index.html" class="mobile-navigation-links link"
-            >Product</a
-          >
-        </li>
-        <li>
-          <a href="./pricing.html" class="mobile-navigation-links link"
-            >Pricing</a
-          >
-        </li>
-        <li>
-          <a href="./customers.html" class="mobile-navigation-links link"
-            >Customers</a
-          >
-        </li>
-        <li><a href="" class="mobile-navigation-links link">Resources</a></li>
-      </ul>
-      <div class="buttons-mobile-wrap">
-        <button class="sign-in-mob-btn" type="button">Sign in</button>
-        <button class="sign-up-mob-btn" type="button">Sign up</button>
+        <a href="./customers.html">
+          <svg class="icon-light-mobile" width="36" height="36">
+            <use href="./images/sprite.svg#icon-light-header"></use>
+          </svg>
+        </a>
+        <button
+          class="mobile-icon-close-wrap"
+          type="button"
+          data-first-modal-close
+        >
+          <svg class="mobile-icon-close" width="36" height="36">
+            <use href="./images/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="mobile-navigation-list list">
+          <li>
+            <a href="./index-dark.html" class="mobile-navigation-links link"
+              >Product</a
+            >
+          </li>
+          <li>
+            <a href="./pricing-dark.html" class="mobile-navigation-links link"
+              >Pricing</a
+            >
+          </li>
+          <li>
+            <a href="./customers-dark.html" class="mobile-navigation-links link"
+              >Customers</a
+            >
+          </li>
+          <li><a href="" class="mobile-navigation-links link">Resources</a></li>
+        </ul>
+        <div class="buttons-mobile-wrap">
+          <button class="sign-in-mob-btn" type="button">Sign in</button>
+          <button class="sign-up-mob-btn" type="button">Sign up</button>
+        </div>
       </div>
-    </div>
+  
+      <!-- ===================/ MOBILE MENU================== -->
+      <script src="./js/script.js"></script>
 
-    <!-- ===================/ MOBILE MENU================== -->
-    <script src="./js/script.js"></script>
   </body>
 </html>

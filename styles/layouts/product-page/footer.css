@@ -1,11 +1,14 @@
 .footer {
-  margin-top: 50px;
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 44px;
 }
 
+.footer-section{
+  background-color: var(--sections-back-color);
+}
 .social-list-wrap {
   margin-bottom: 32px;
 }

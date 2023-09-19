@@ -5,6 +5,8 @@
 @import './base/visually-hidden.css';
 @import './base/section.css';
 
+/* ===========================================PRODUCT PAGE================================ */
+
 /* HEADER */
 @import './layouts/product-page/header.css';
 
@@ -38,3 +40,18 @@
 
 /* MOBILE MENU */
 @import './layouts/product-page/mobile-menu.css';
+
+
+/* ==============================================CUSTOMERS PAGE=========================== */
+
+/* OUR CLIENTS */
+@import './layouts/customers/our-clients.css';
+
+/* FEATURES */
+@import './layouts/customers/features.css';
+
+/* PRODUCT`s WORK */
+@import './layouts/customers/product-work.css';
+
+/* BUSINESS PRODUCTS */
+@import './layouts/customers/business-products.css';

@@ -5,6 +5,10 @@
   text-align: center;
 }
 
+.price-section{
+  background-color: var(--sections-back-color);
+}
+
 .price-text {
   font-weight: 500;
   line-height: normal;
@@ -16,6 +20,7 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
+  align-items: center;
 }
 
 .price-items {

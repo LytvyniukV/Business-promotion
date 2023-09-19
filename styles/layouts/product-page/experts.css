@@ -5,6 +5,10 @@
   margin-bottom: 8px;
 }
 
+.experts-section{
+    background-color: var(--sections-back-color);
+}
+
 .experts-text {
   text-align: center;
   font-weight: 500;

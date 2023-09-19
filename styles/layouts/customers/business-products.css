@@ -1,0 +1,90 @@
+.business-products-section {
+  padding-top: 30px;
+  padding-bottom: 33px;
+  background-color: var(--sections-back-color);
+}
+
+.business-prod-title {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 85px;
+}
+
+.business-prod-list {
+  display: flex;
+  flex-direction: column;
+  gap: 66px;
+}
+
+.business-prod-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.business-prod-icon-wrap {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.light-red {
+  background: #ffefef;
+}
+
+.light-blue {
+  background: #f2f6ff;
+}
+
+.business-prod-item-title {
+  color: var(--dark-black);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.17;
+  margin-bottom: 16px;
+}
+
+.business-prod-item-list {
+  margin-bottom: 12px;
+}
+
+.business-prod-item-text {
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.78;
+}
+
+.business-prod-final-text {
+  color: var(--dark-black);
+  font-weight: 500;
+  line-height: 1.75;
+}
+
+/* ========================DESKTOP=================== */
+
+@media screen and (min-width: 1158px) {
+    .business-products-section {
+        padding-top: 35px;
+        padding-bottom: 45px;
+    }
+    
+    .business-prod-title {
+        font-size: 34px;
+        margin-bottom: 94px;
+    }
+
+    .business-prod-list {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    
+  
+    .business-prod-icon-wrap {
+        margin-bottom: 25px;
+    }
+    
+}

@@ -4,6 +4,10 @@
   margin-bottom: 8px;
 }
 
+.strategies-section{
+  background-color: var(--sections-back-color);
+}
+
 .strateg-text {
   font-weight: 500;
   line-height: 1.62;
