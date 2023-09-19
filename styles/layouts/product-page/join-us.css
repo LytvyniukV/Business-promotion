@@ -7,9 +7,7 @@
   padding: 17px 22px 0 22px;
 }
 
-.join-us-section{
-  background-color: var(--sections-back-color);
-}
+
 
 .join-content-wrap {
   margin-bottom: 42px;
@@ -26,7 +24,7 @@
 
 .join-btn {
   border-radius: 8px;
-  background: var(--color-text-white);
+  background: #fff;
   width: 150px;
   height: 50px;
   display: flex;
@@ -76,7 +74,7 @@
     margin-left: 0;
   }
 
-  /* styles for customer-page */
+  /* styles for customer-page and pricing-page */
 
   .join-us{
     padding-top: 150px;

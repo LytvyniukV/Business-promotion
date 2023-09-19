@@ -55,3 +55,17 @@
 
 /* BUSINESS PRODUCTS */
 @import './layouts/customers/business-products.css';
+
+/* ======================================PRICING PAGE========================== */
+
+/* PRICING HERO */
+@import './layouts/pricing/pricing-hero.css';
+
+/* ENTERPRISE */
+@import './layouts/pricing/enterprise.css';
+
+/* EFFECTS */
+@import './layouts/pricing/effects.css';
+
+/* FAQ */
+@import './layouts/pricing/faq.css';

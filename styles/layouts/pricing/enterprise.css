@@ -1,0 +1,67 @@
+.enterprise-section {
+    padding-top: 46px;
+    padding-bottom: 46px;
+    background: linear-gradient(180deg, #F6F6F6 0%, rgba(246, 246, 246, 0.00) 100%);
+}
+
+.enterprise-section-name {
+font-size: 24px;
+font-weight: 600;
+margin-bottom: 24px;
+text-align: center;
+text-transform: uppercase;
+}
+
+.enterprise-title {
+text-align: center;
+font-size: 32px;
+margin-bottom: 25px;
+}
+
+.enterprise-text {
+text-align: center;
+font-size: 18px;
+margin-bottom: 32px;
+}
+
+.enterprise-btn {
+    border-radius: 8px;
+background: var(--brand-color);
+width: 224px;
+height: 44px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #FFF;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 600;
+border: none;
+margin-left: auto;
+margin-right: auto;
+transition: background-color var(--timing-function);
+}
+
+.enterprise-btn:hover,
+.enterprise-btn:focus{
+    background-color: var(--hover-color-btn);
+}
+
+/* =========================DESKTOP========================= */
+
+@media screen and (min-width: 1158px) {
+    .enterprise-section {
+        padding-top: 52px;
+        padding-bottom: 52px;
+    }
+    
+    .enterprise-section-name {
+        padding-bottom: 16px;
+    }
+
+    .enterprise-title {
+        font-size: 34px;
+        margin-bottom: 8px;
+    }
+
+}
