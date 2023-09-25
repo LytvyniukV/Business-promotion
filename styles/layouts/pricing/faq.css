@@ -26,6 +26,9 @@ font-size: 18px;
 font-weight: 500;
 }
 
+details > p{
+    margin-top: 16px;
+}
 /* ============================DESKTOP===================== */
 
 @media screen and (min-width: 1158px) {
